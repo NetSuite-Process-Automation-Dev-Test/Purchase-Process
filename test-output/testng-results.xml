@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-03T13:25:45Z" name="Suite" finished-at="2021-03-03T13:39:02Z" duration-ms="797210">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.purchaseProcess.runner.TestRunner@12d4bf7e]" name="feature" class="com.qa.purchaseProcess.runner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-03T13:25:45Z" name="Test" finished-at="2021-03-03T13:39:02Z" duration-ms="797210">
+      <class name="com.qa.purchaseProcess.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.qa.purchaseProcess.runner.TestRunner@12d4bf7e]" started-at="2021-03-03T18:55:45Z" name="setUpClass" finished-at="2021-03-03T18:55:45Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.purchaseProcess.runner.TestRunner@12d4bf7e]" started-at="2021-03-03T18:55:45Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-03T19:09:02Z" duration-ms="796458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Purchase Process Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qa.purchaseProcess.runner.TestRunner@12d4bf7e]" started-at="2021-03-03T19:09:02Z" name="tearDownClass" finished-at="2021-03-03T19:09:02Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.purchaseProcess.runner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
